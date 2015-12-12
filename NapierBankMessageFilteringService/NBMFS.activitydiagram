@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="5856ee0f-6375-42a8-baf2-252c4a30b615" name="NBMFS" linkedPackageId="388b79ae-099a-4287-9ee0-8a78c6011952" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="89eab702-864c-42b5-9b68-bc7e979033aa" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="0f9dbe54-866f-4bc6-af84-69a1fa0dafbf" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="1857ad6e-3ab6-4e78-a724-26bb30329c9e">
+          <propertyInstance Id="7e898785-a86c-45db-8bee-5f23fbb73a05" name="BaseName">
+            <elementDefinition Id="4361b45b-eaa0-460f-86b8-a7f73ab2362d" />
+          </propertyInstance>
+          <elementDefinition Id="aa7bb2f8-fb82-4ff3-b354-30501720d8af" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c9fb6ded-05df-4635-a9c7-214bb7f0acfa">
+          <propertyInstance Id="c66ca778-7b99-46b5-8ccc-a3e15bb20375" name="ClrAttributes">
+            <elementDefinition Id="9154addd-0c8b-48ad-8f18-ab882d1a8899" />
+          </propertyInstance>
+          <elementDefinition Id="1c29650f-804a-4860-acd9-4af14cb02f6b" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="eae979cc-08b8-4933-997f-d4387785aa8f">
+          <propertyInstance Id="aa15d274-8c9a-4604-9327-99a8ea29e046" name="Usings">
+            <elementDefinition Id="d8659862-43f7-45b2-adf2-0760e05f1204" />
+          </propertyInstance>
+          <elementDefinition Id="eb6f5b67-3260-4db6-bdb1-c40e8ef819b3" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="3d7724dd-7237-49de-9b74-bf674a0ac463" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="5bc8b745-5321-400b-83bb-6482b3fa3f22" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="01db5126-9acc-49e8-8128-25cc553ba94e">
+          <propertyInstance Id="64990980-3d45-49c8-9893-13b75e0e9712" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="715f2de3-be41-4c06-a511-32e074f010bb" />
+          </propertyInstance>
+          <elementDefinition Id="c0fccc2a-c20d-4ff4-a8a6-de4b388602d0" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="619b75a9-6b34-4c32-83cd-47a14b40af67">
+          <propertyInstance Id="e5e93786-16c0-47e1-a1b2-ecd4f93aa896" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="63805abd-def1-4a2d-9786-da069ce32744" />
+          </propertyInstance>
+          <elementDefinition Id="388668b4-79af-4c10-9ccb-fe309fb27764" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="5a9f6446-e336-4d18-aa88-08fccfe3b8eb">
+          <propertyInstance Id="7b6d7b74-868a-46ea-90d4-73b92e655100" name="ProjectPath" value="ClassTemplate=..\NapierBankMessageFilteringServiceLib\NapierBankMessageFilteringServiceLib.csproj|EnumTemplate=..\NapierBankMessageFilteringServiceLib\NapierBankMessageFilteringServiceLib.csproj|InterfaceTemplate=..\NapierBankMessageFilteringServiceLib\NapierBankMessageFilteringServiceLib.csproj|StructTemplate=..\NapierBankMessageFilteringServiceLib\NapierBankMessageFilteringServiceLib.csproj">
+            <elementDefinition Id="9cc109cb-5efd-4703-b85a-bbd652e67d71" />
+          </propertyInstance>
+          <elementDefinition Id="d9cbb7d1-a396-46d9-9a02-bf208c0c9885" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="9502d426-a435-4f0b-8ab7-5bb9739956e7">
+          <propertyInstance Id="cebdf2ef-42d0-4467-9d60-fbeae117fa51" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="e2bd0548-1528-41a7-9738-25a0b53c12b6" />
+          </propertyInstance>
+          <elementDefinition Id="0cdb821c-735d-40c3-8570-260d08453f3f" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d7f41260-0834-411e-9ab6-9edbc957e598">
+          <propertyInstance Id="634c29e7-87d7-4fa8-99f5-5b2aedbed900" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="7814bd9c-3096-441f-aef5-870b7892f80a" />
+          </propertyInstance>
+          <elementDefinition Id="66a160e5-c4bd-4222-bc15-5b3c6a022b74" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="13bcb276-00fb-4eca-91a8-278ac881c943">
+          <propertyInstance Id="9a8cbe7c-9227-4a43-a2f5-aa9e8a5dbea4" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="09a2f072-839c-4e75-b285-334b8559d360" />
+          </propertyInstance>
+          <elementDefinition Id="f1aa765f-2c5a-4131-b2e7-3edd914dbf7e" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="3492a522-0f85-4b14-b6dd-6dd11bdb3928">
+          <propertyInstance Id="374b5ef7-9891-40df-aad1-0f12b2bb39cb" name="Parameters">
+            <elementDefinition Id="e2cccfc3-e956-4540-b864-2fbb9d5a0371" />
+          </propertyInstance>
+          <elementDefinition Id="17083a8c-d8b8-4c8e-914f-3c69e549b81c" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="8994287c-03dc-41de-8e2d-ebd23e1c2db9" name="NBMFS" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="ac04d88a-4293-4e0c-9868-285e670f476d" />
+        <nodes>
+          <initialNode Id="e19484ee-0f1a-46f9-b9b3-7be635e0793c" name="Initial1" isLeaf="false">
+            <elementDefinition Id="76a78f9a-8c74-4d19-892b-ace8fe552896" />
+            <flowNodeTargets>
+              <controlFlow Id="15751011-2d31-41b4-8327-0e013ff3ac89" isLeaf="false">
+                <opaqueActionMoniker Id="9a330a85-25cf-46a5-9ff6-997896aaadac" LastKnownName="UI Form / Console test app sends message." />
+                <elementDefinition Id="1a65475b-0531-42fa-bf15-cbadad5c1ac0" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="937995c9-2673-4e34-8867-812612ab808a" name="NBMFilteringService creates SMSMessage object with message details." isLeaf="false">
+            <elementDefinition Id="90cf8d16-7d04-4222-afb4-ab4da691754a" />
+            <flowNodeTargets>
+              <controlFlow Id="212b6362-fa48-4aaf-ac20-a82d226ac9be" isLeaf="false">
+                <opaqueActionMoniker Id="3243415e-8478-4c0a-b972-edf6bc03c3ea" LastKnownName="NBMFilteringService sanitizes SMSMessage object. (Expands any abbreviations)" />
+                <elementDefinition Id="78e750c4-25ad-42ff-a375-b3b7b7af388f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="9a330a85-25cf-46a5-9ff6-997896aaadac" name="UI Form / Console test app sends message." isLeaf="false">
+            <elementDefinition Id="95e1455c-b2d1-4eb3-9d00-511ce3b3d055" />
+            <flowNodeTargets>
+              <controlFlow Id="319aa6a8-aaf5-4338-90ae-428ba31ec196" isLeaf="false">
+                <opaqueActionMoniker Id="fa14035d-16fd-441e-ae4f-0011112cd402" LastKnownName="NBMFilteringService reads message header." />
+                <elementDefinition Id="74596248-73ed-464e-98d4-b1117dacb1ad" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="fa14035d-16fd-441e-ae4f-0011112cd402" name="NBMFilteringService reads message header." isLeaf="false">
+            <elementDefinition Id="8a0dea0f-dc3b-4ee5-8639-19ac9c3be5c5" />
+            <flowNodeTargets>
+              <controlFlow Id="64448da4-830e-4eec-a57d-60dfeb111772" isLeaf="false">
+                <decisionNodeMoniker Id="a5cf2213-cf48-45ef-b029-4ee2d86b117a" LastKnownName="Decision1" />
+                <elementDefinition Id="e709e04c-e1c9-4e68-b437-91cbdafebbef" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="958df72f-926f-449c-b1b5-8496cd60535f" name="Decision3" isLeaf="false">
+            <elementDefinition Id="d2ad444f-330c-4872-b2be-5c62908de9ac" />
+            <flowNodeTargets>
+              <controlFlow Id="71955550-5ba9-4157-8b04-a649fe8975c4" guard="Message is type &quot;S&quot;." isLeaf="false">
+                <opaqueActionMoniker Id="937995c9-2673-4e34-8867-812612ab808a" LastKnownName="NBMFilteringService creates SMSMessage object with message details." />
+                <elementDefinition Id="b7838dfd-e085-438f-8f86-fa69be7fb20a" />
+              </controlFlow>
+              <controlFlow Id="a21f7705-723b-43c3-8871-d56a455937bd" guard="Message is type &quot;T&quot;." isLeaf="false">
+                <opaqueActionMoniker Id="1fef0755-c8dd-4d86-9863-0e6af8219517" LastKnownName="NBMFilteringService creates Tweet Object with message details." />
+                <elementDefinition Id="62ff0c84-63ba-4b2e-9546-79b9b623b6d6" />
+              </controlFlow>
+              <controlFlow Id="c542b00f-0425-4043-8576-1295ee482e9f" guard="Message is type &quot;E&quot;." isLeaf="false">
+                <opaqueActionMoniker Id="4bc13aeb-9bbd-4a5b-9e2f-340d8fd10527" LastKnownName="What type of email is it?" />
+                <elementDefinition Id="60a20e57-4695-48ce-9311-d697bc1b83c5" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="1fef0755-c8dd-4d86-9863-0e6af8219517" name="NBMFilteringService creates Tweet Object with message details." isLeaf="false">
+            <elementDefinition Id="beb262e1-1d77-43a6-8fa0-dca8d81e082d" />
+            <flowNodeTargets>
+              <controlFlow Id="8ecbff8b-eccd-4450-8b2b-cee8a506ab57" isLeaf="false">
+                <opaqueActionMoniker Id="1783b5da-561d-4a90-bd77-1399eeb46307" LastKnownName="NBMFilteringService sanitizes Tweet object. (Expands abbreviations &amp; lists hashtags, mentions)" />
+                <elementDefinition Id="15f27578-1e14-4e01-966e-10ab44c0a296" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="4bc13aeb-9bbd-4a5b-9e2f-340d8fd10527" name="What type of email is it?" isLeaf="false">
+            <elementDefinition Id="413ef5c8-0523-4197-8d22-c2651cbacd3b" />
+            <flowNodeTargets>
+              <controlFlow Id="e06304a8-2eb1-4e2b-833c-5b8df5ce6f17" isLeaf="false">
+                <decisionNodeMoniker Id="3c4aa4c3-15dc-4d92-8abd-236e6f9a4d48" LastKnownName="Decision5" />
+                <elementDefinition Id="7f3b0047-e9eb-401c-8395-7797b1d58e06" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="3c4aa4c3-15dc-4d92-8abd-236e6f9a4d48" name="Decision5" isLeaf="false">
+            <elementDefinition Id="2d2e2f23-882f-4988-9726-c570bf06c853" />
+            <flowNodeTargets>
+              <controlFlow Id="349a5a6b-3a96-47d0-b823-68b88b57770b" guard="Standard Email" isLeaf="false">
+                <opaqueActionMoniker Id="27979333-c314-4b0f-a95c-a63e59fba153" LastKnownName="NBMFilteringService creates StandardEmail Object with message details." />
+                <elementDefinition Id="36829a96-b3b0-442a-bb27-302cff03e7f6" />
+              </controlFlow>
+              <controlFlow Id="7a07926b-10bd-49f2-961c-f65e8a53f8c6" guard="Significant Incident Report" isLeaf="false">
+                <opaqueActionMoniker Id="6a7b5c4d-9ab4-43b4-a3fb-73df270f279a" LastKnownName="NBMFilteringService creates a SIREmail Object with message details." />
+                <elementDefinition Id="697702fe-bd23-4499-a847-d961ddcc6bf1" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="27979333-c314-4b0f-a95c-a63e59fba153" name="NBMFilteringService creates StandardEmail Object with message details." isLeaf="false">
+            <elementDefinition Id="4f18ad66-04ec-4128-a0dc-9a80e19dbe19" />
+            <flowNodeTargets>
+              <controlFlow Id="e240d74f-aa18-4e6e-b528-1271859b0329" isLeaf="false">
+                <opaqueActionMoniker Id="4b053a95-4205-48f9-9d0b-c8653298f6a2" LastKnownName="NBMFilteringService sanitizes StandardEmail object. (Replace URL's with &quot;&lt;URL Quarantined&gt;&quot;)" />
+                <elementDefinition Id="684fd51e-6e06-45fd-b70c-0ed6c3f2871c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="6a7b5c4d-9ab4-43b4-a3fb-73df270f279a" name="NBMFilteringService creates a SIREmail Object with message details." isLeaf="false">
+            <elementDefinition Id="40c21b0b-5be9-4734-9173-ccab70c8abfa" />
+            <flowNodeTargets>
+              <controlFlow Id="1d980125-fd4e-4173-b74c-5dc9c23a4a3e" isLeaf="false">
+                <opaqueActionMoniker Id="fb500a63-b1ce-4d6f-99db-e890cf9ed1db" LastKnownName="NBMFilteringService sanitizes SIREmail object. (Replace URL's with &quot;&lt;URL Quarantined&gt;&quot; &amp; takes note of significant incident)" />
+                <elementDefinition Id="b639aaee-cc70-447f-a2ac-89a2edf5e6c8" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="3243415e-8478-4c0a-b972-edf6bc03c3ea" name="NBMFilteringService sanitizes SMSMessage object. (Expands any abbreviations)" isLeaf="false">
+            <elementDefinition Id="d847387c-d5f1-4707-912f-0732f4ab767a" />
+            <flowNodeTargets>
+              <controlFlow Id="1390dffc-4755-45da-aae6-cc5ea8282906" isLeaf="false">
+                <opaqueActionMoniker Id="a08ed825-0abd-40e6-9a27-ca2dfdaa154e" LastKnownName="NBMFilteringService writes the sanitized SMS Message to JSON format file. " />
+                <elementDefinition Id="7eca1e2f-ddc2-4b51-a2b5-db825f1f1541" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="a08ed825-0abd-40e6-9a27-ca2dfdaa154e" name="NBMFilteringService writes the sanitized SMS Message to JSON format file. " isLeaf="false">
+            <elementDefinition Id="aec80e0e-6e2b-47c0-b985-e0ea11af30e0" />
+            <flowNodeTargets>
+              <controlFlow Id="543a3141-45e4-473b-988c-7139c0e8eee6" isLeaf="false">
+                <activityFinalNodeMoniker Id="e4f7611a-c6fd-4455-a216-09579ce8384a" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="84d6e088-9673-4579-b627-bb448979d58c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="aee79591-f4cb-4ae8-9cf5-b83dbf81444d" name="NBMFilteringService  adds hashtags to hashtagList and mentions to MentionsList." isLeaf="false">
+            <elementDefinition Id="b7a0d137-f15d-494b-8a1e-6396858d5e3a" />
+            <flowNodeTargets>
+              <controlFlow Id="c603d606-440d-4728-a23d-453b9b74bf8a" isLeaf="false">
+                <opaqueActionMoniker Id="2ae055a1-bd16-45bd-afbc-1b333a1ec61c" LastKnownName="NBMFilteringService writes the sanitized Tweet to JSON format file. " />
+                <elementDefinition Id="3504caeb-63c7-4c66-8d84-1f05a091022d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="e6f148b2-d50f-41ee-bf9b-420eb0c7eb43" name="NBMFilteringService writes the sanitized Email Message to JSON format file. " isLeaf="false">
+            <elementDefinition Id="726bee72-2278-4421-ac74-7f2cdf7ae515" />
+            <flowNodeTargets>
+              <controlFlow Id="ef28fb6b-9723-4e01-a996-c89919dc397a" isLeaf="false">
+                <activityFinalNodeMoniker Id="e4f7611a-c6fd-4455-a216-09579ce8384a" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="59910a34-43bb-44ac-981e-3cda947a8d65" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="179a0a37-99de-4746-a68e-7ded5fccd830" name="NBMFilteringService adds significant incident report to SIRList." isLeaf="false">
+            <elementDefinition Id="49b2d0d7-a9cb-4394-957c-92e932090a45" />
+            <flowNodeTargets>
+              <controlFlow Id="38cf971a-c875-4daf-9f5d-ae2337ad8896" isLeaf="false">
+                <opaqueActionMoniker Id="5e8859f2-92ae-4ecd-9c50-d6319159205c" LastKnownName="NBMFilteringService writes the sanitized Email Message to JSON format file. " />
+                <elementDefinition Id="01595f7b-ba20-42c9-85b3-daee6b31ae14" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="2ae055a1-bd16-45bd-afbc-1b333a1ec61c" name="NBMFilteringService writes the sanitized Tweet to JSON format file. " isLeaf="false">
+            <elementDefinition Id="06f6067a-af73-4053-9e74-82b043389334" />
+            <flowNodeTargets>
+              <controlFlow Id="716b0410-5849-42ab-ad20-359f69a7f76c" isLeaf="false">
+                <activityFinalNodeMoniker Id="e4f7611a-c6fd-4455-a216-09579ce8384a" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="7716c1e1-60e8-4086-9444-43c049f5760e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="5e8859f2-92ae-4ecd-9c50-d6319159205c" name="NBMFilteringService writes the sanitized Email Message to JSON format file. " isLeaf="false">
+            <elementDefinition Id="be757ddb-0d27-46cb-ad1c-5039dc2aa728" />
+            <flowNodeTargets>
+              <controlFlow Id="56adbe86-c57b-4562-a039-c007cc476cb7" isLeaf="false">
+                <activityFinalNodeMoniker Id="e4f7611a-c6fd-4455-a216-09579ce8384a" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="62b3261a-b065-4723-93af-a521cb098655" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="e4f7611a-c6fd-4455-a216-09579ce8384a" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="593216ee-d2eb-432f-a4de-474e314639d0" />
+          </activityFinalNode>
+          <decisionNode Id="a5cf2213-cf48-45ef-b029-4ee2d86b117a" name="Decision1" isLeaf="false">
+            <elementDefinition Id="2bb9255a-e685-40d2-92c4-0c141f9c81e1" />
+            <flowNodeTargets>
+              <controlFlow Id="8d3c8aa9-5681-4067-bbdb-6d2b4c4324e4" guard="Not valid message." isLeaf="false">
+                <opaqueActionMoniker Id="9a330a85-25cf-46a5-9ff6-997896aaadac" LastKnownName="UI Form / Console test app sends message." />
+                <elementDefinition Id="788dd1dc-2033-4608-b3a6-c7cda29b7896" />
+              </controlFlow>
+              <controlFlow Id="3b889ae1-4cbf-4328-965b-b0030ba14eab" guard="Valid message." isLeaf="false">
+                <opaqueActionMoniker Id="2fbdabf7-378b-4272-a64e-b44b3416ea8f" LastKnownName="What type of message is it?" />
+                <elementDefinition Id="72c171e0-1ef9-4616-b149-b9cb354438de" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="2fbdabf7-378b-4272-a64e-b44b3416ea8f" name="What type of message is it?" isLeaf="false">
+            <elementDefinition Id="96341bc6-9bf3-4466-8914-803fbc36ab1a" />
+            <flowNodeTargets>
+              <controlFlow Id="8272f579-bb5a-453b-9ee7-7887cfcb43b8" isLeaf="false">
+                <decisionNodeMoniker Id="958df72f-926f-449c-b1b5-8496cd60535f" LastKnownName="Decision3" />
+                <elementDefinition Id="962bddf0-935a-406c-82f2-e9ed95ee263f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="1783b5da-561d-4a90-bd77-1399eeb46307" name="NBMFilteringService sanitizes Tweet object. (Expands abbreviations &amp; lists hashtags, mentions)" isLeaf="false">
+            <elementDefinition Id="713c3ffc-70b6-470b-a05d-f2237859efc4" />
+            <flowNodeTargets>
+              <controlFlow Id="512a9b2f-5d33-4d9f-82ed-e9af848c9343" isLeaf="false">
+                <opaqueActionMoniker Id="aee79591-f4cb-4ae8-9cf5-b83dbf81444d" LastKnownName="NBMFilteringService  adds hashtags to hashtagList and mentions to MentionsList." />
+                <elementDefinition Id="815d932b-9cb9-4555-8e48-7bd0f0b3dc13" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="4b053a95-4205-48f9-9d0b-c8653298f6a2" name="NBMFilteringService sanitizes StandardEmail object. (Replace URL's with &quot;&lt;URL Quarantined&gt;&quot;)" isLeaf="false">
+            <elementDefinition Id="b14b3db9-82b4-4931-a02a-d0e7ec83c4c4" />
+            <flowNodeTargets>
+              <controlFlow Id="a84c4463-8fd6-4f1d-9cc4-c5e5fcfd55cd" isLeaf="false">
+                <opaqueActionMoniker Id="e6f148b2-d50f-41ee-bf9b-420eb0c7eb43" LastKnownName="NBMFilteringService writes the sanitized Email Message to JSON format file. " />
+                <elementDefinition Id="4cff8201-bb32-489d-901e-f64e80e0901a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="fb500a63-b1ce-4d6f-99db-e890cf9ed1db" name="NBMFilteringService sanitizes SIREmail object. (Replace URL's with &quot;&lt;URL Quarantined&gt;&quot; &amp; takes note of significant incident)" isLeaf="false">
+            <elementDefinition Id="6a78a21f-ce9b-4938-a8cb-e307445ee9e3" />
+            <flowNodeTargets>
+              <controlFlow Id="db4a6a22-3432-46a0-bbcd-05b656350810" isLeaf="false">
+                <opaqueActionMoniker Id="179a0a37-99de-4746-a68e-7ded5fccd830" LastKnownName="NBMFilteringService adds significant incident report to SIRList." />
+                <elementDefinition Id="f6b3944e-fef4-43b7-877b-2dd3815129f5" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="388b79ae-099a-4287-9ee0-8a78c6011952" name="NapierBankMessageFilteringService">
+    <elementDefinition Id="2613f222-b3a0-4957-8c93-77bee6081200" />
+    <profileInstances>
+      <packageHasProfileInstances Id="588661b9-a727-4851-84e5-aca5def70f2a">
+        <profileInstance Id="545df47f-788f-4668-b846-ed7f02272728" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="f5bccb7c-8a91-49e4-9b8a-70fa4d3f9932">
+        <profileInstance Id="d343023a-f26b-4e02-9d69-89280e801899" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="7022eb77-ed76-4a7f-a843-a49469487d6b">
+        <profileInstance Id="5c3d0158-fdb1-4830-afa5-bf4c6950378d" name="CSharpProfile">
+          <elementDefinition Id="3535f4ed-230f-42bd-8555-65e8df4939fe" />
+        </profileInstance>
+        <elementDefinition Id="970c68e3-d370-4266-9999-13e1cd39dd9d" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="13622cff-8649-4866-8768-d50f26aeddcd">
+        <profileInstance Id="5b5126ba-5faf-45ad-8ed2-7dda966b8737" name="TextTemplateBindings">
+          <elementDefinition Id="b380e12e-283f-483d-a211-4ef1270ee65c" />
+        </profileInstance>
+        <elementDefinition Id="ef8463a1-2da0-45e0-babd-b805fb9866c9" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

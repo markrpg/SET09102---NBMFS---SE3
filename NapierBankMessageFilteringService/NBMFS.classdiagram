@@ -1,0 +1,1076 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="15eaea3d-673b-4fc3-8745-feda4bf3fed2" name="NBMFS" linkedPackageId="2a5ccab5-5bc0-4141-a4c0-d28b442423b1" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="e4df8d49-039e-424e-ad5b-673bae728450" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="0f9dbe54-866f-4bc6-af84-69a1fa0dafbf" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="8a242b27-02f9-4d98-9757-6540cf27ecf6">
+          <propertyInstance Id="d0e8404f-99d5-45b7-a815-48caef8fd28a" name="BaseName">
+            <elementDefinition Id="4361b45b-eaa0-460f-86b8-a7f73ab2362d" />
+          </propertyInstance>
+          <elementDefinition Id="aa7bb2f8-fb82-4ff3-b354-30501720d8af" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="f42603ba-ecc8-40a3-86fe-45f8589c5146">
+          <propertyInstance Id="50d3568a-4aea-487a-ae6f-2cb51fe88969" name="ClrAttributes">
+            <elementDefinition Id="9154addd-0c8b-48ad-8f18-ab882d1a8899" />
+          </propertyInstance>
+          <elementDefinition Id="1c29650f-804a-4860-acd9-4af14cb02f6b" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="aa9cc348-f537-44c8-91c4-294d1b4fce11">
+          <propertyInstance Id="920ae826-4d90-4c8f-a38f-27b66bfe2092" name="Usings">
+            <elementDefinition Id="d8659862-43f7-45b2-adf2-0760e05f1204" />
+          </propertyInstance>
+          <elementDefinition Id="eb6f5b67-3260-4db6-bdb1-c40e8ef819b3" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="a58fba19-3492-468c-9d13-ae8b9ddefc79" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="5bc8b745-5321-400b-83bb-6482b3fa3f22" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="88827593-33d6-4765-a14b-aa0df29afce9">
+          <propertyInstance Id="1bf314e0-76cb-400a-b6a0-0296a1d2b28f" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="715f2de3-be41-4c06-a511-32e074f010bb" />
+          </propertyInstance>
+          <elementDefinition Id="c0fccc2a-c20d-4ff4-a8a6-de4b388602d0" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="66114332-0cda-4e57-8517-400365e72070">
+          <propertyInstance Id="b968d055-8348-4eb2-8ca9-627a39f0a242" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="63805abd-def1-4a2d-9786-da069ce32744" />
+          </propertyInstance>
+          <elementDefinition Id="388668b4-79af-4c10-9ccb-fe309fb27764" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="65869d7a-1971-4594-836e-b06c8d889f5c">
+          <propertyInstance Id="e0ea6137-f9f9-4354-85c4-b1fbe01db8f7" name="ProjectPath" value="ClassTemplate=..\NapierBankMessageFilteringServiceLib\NapierBankMessageFilteringServiceLib.csproj|EnumTemplate=..\NapierBankMessageFilteringServiceLib\NapierBankMessageFilteringServiceLib.csproj|InterfaceTemplate=..\NapierBankMessageFilteringServiceLib\NapierBankMessageFilteringServiceLib.csproj|StructTemplate=..\NapierBankMessageFilteringServiceLib\NapierBankMessageFilteringServiceLib.csproj">
+            <elementDefinition Id="9cc109cb-5efd-4703-b85a-bbd652e67d71" />
+          </propertyInstance>
+          <elementDefinition Id="d9cbb7d1-a396-46d9-9a02-bf208c0c9885" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d6f61772-c234-42b8-b315-b599fbc0150a">
+          <propertyInstance Id="4909f37b-a412-433a-872e-7764782a0699" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="e2bd0548-1528-41a7-9738-25a0b53c12b6" />
+          </propertyInstance>
+          <elementDefinition Id="0cdb821c-735d-40c3-8570-260d08453f3f" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="99034bce-cb18-41e6-bb94-d96af1886de3">
+          <propertyInstance Id="c8a869ee-2f52-4942-b690-ed17601cfb0c" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="7814bd9c-3096-441f-aef5-870b7892f80a" />
+          </propertyInstance>
+          <elementDefinition Id="66a160e5-c4bd-4222-bc15-5b3c6a022b74" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="fe14c0e9-3940-4da3-8513-b03038afdca7">
+          <propertyInstance Id="e26f3acd-6d5f-42c7-8c46-8bcb1878c1f8" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="09a2f072-839c-4e75-b285-334b8559d360" />
+          </propertyInstance>
+          <elementDefinition Id="f1aa765f-2c5a-4131-b2e7-3edd914dbf7e" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="a346f58f-47d9-48d1-8e63-968bf5cf9fea">
+          <propertyInstance Id="0c3c5b14-30fb-483c-a26a-e5a40f570512" name="Parameters">
+            <elementDefinition Id="e2cccfc3-e956-4540-b864-2fbb9d5a0371" />
+          </propertyInstance>
+          <elementDefinition Id="17083a8c-d8b8-4c8e-914f-3c69e549b81c" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b380e288-ccbd-4306-ac93-7f7f60b21ac8" name="NBMFilteringService " isAbstract="false" isLeaf="false" isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="53e39493-335d-4652-b871-274b96222114" name="class" profile="CSharpProfile">
+            <elementDefinition Id="5da57257-c836-457a-a8f7-b48c50139c5e" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="c8cf27fc-05c6-441d-ba0e-bc7de6e50a0a">
+                <propertyInstance Id="92d1cf11-dcc1-4641-9602-788026f87162" name="ClrAttributes">
+                  <elementDefinition Id="c497776b-cac9-4aab-9802-ab137fb8f232" />
+                </propertyInstance>
+                <elementDefinition Id="f5a52f31-6051-4804-a77e-7bd4e7b406c7" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="935a856c-b2ef-472a-b4c2-9101651c3f3a">
+                <propertyInstance Id="f2ede36e-390b-4615-a77c-2e7122e29dc8" name="IsPartial" value="false">
+                  <elementDefinition Id="97a39691-1515-4155-a4d9-31214b246184" />
+                </propertyInstance>
+                <elementDefinition Id="80a6f3df-a3b2-4249-bd3a-8329fe611079" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="a232dae7-3209-41d1-b002-5269f770ec8f">
+                <propertyInstance Id="ba9d5136-5361-42cf-830a-3592243cac0b" name="IsStatic" value="false">
+                  <elementDefinition Id="935ba07b-62a3-45d1-9f45-6397228b9d51" />
+                </propertyInstance>
+                <elementDefinition Id="92a3cd40-926b-46d8-837a-3fa2cca616b9" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="f7e4776a-a02a-4256-9644-22c13f70d632">
+                <propertyInstance Id="c2e398dd-04ef-4af5-ab2b-a18688149f32" name="IsUnsafe" value="false">
+                  <elementDefinition Id="17f4f10b-988f-4b48-9c3f-18941afd9578" />
+                </propertyInstance>
+                <elementDefinition Id="136b03b6-7bef-474e-9fd2-7bba578e27a2" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="488c73d2-9997-4c9b-8c77-314bca257da6">
+                <propertyInstance Id="26d58390-da03-4337-a9cb-93d43e00ff8a" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="1599273c-fe38-4c1b-b1e3-ed7b9320709c" />
+                </propertyInstance>
+                <elementDefinition Id="405b4d24-eb5c-4eff-80b6-35fc8c2181ff" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="0d8365fb-7bbb-4f24-8a7a-5f16a5c84c46" />
+        <targetEnds>
+          <association Id="b8bf7fd3-28ea-4b12-b3c0-bd3d9b3f7b24" isDerived="false" sourceEndRoleName="NBMFilteringService " targetEndRoleName="Message" isLeaf="false" isAbstract="false">
+            <classMoniker Id="e89049d9-1409-4539-9136-0c337e89bcf8" LastKnownName="Message" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b2643df2-00cc-47ee-891d-21ebbde6e0a1" name="NBMFilteringService " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b45904d9-eaa6-46a7-b26a-f9b2216e34fa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c1061631-6b89-4ed0-8c0f-bedaeef76198" name="Message" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="0d7b460b-2b21-470e-ab7a-2e1af00e82de" name="Lower" value="0">
+                      <elementDefinition Id="c24c1bd8-39e3-4006-ba6b-4c2dd13b426c" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="3d9c2147-0a54-4b2e-af20-0ff9d6901c91" name="Upper" value="*">
+                      <elementDefinition Id="c4179b3d-31c5-47bd-928d-e51a28a0dc92" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="4dced4e7-f197-4482-a511-330fd1ce73aa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c4875593-90e8-4a4b-a15c-fbb2c0d33610" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="7ca44d59-6802-4e14-ba06-ff35394b1147" name="MessageList" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="2803eda4-2fb6-4ff9-acdc-20c25200db1b" name="property" profile="CSharpProfile">
+                <elementDefinition Id="fe7b22fb-6592-4a6a-81d0-34748a7dd96b" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b5489c15-d0c5-4a31-9aad-6246edd827ea">
+                    <propertyInstance Id="8a995dfb-13e1-4050-b152-47a49bf3ca02" name="ClrAttributes">
+                      <elementDefinition Id="7e64ff31-0cfa-4741-862b-3b81606a798b" />
+                    </propertyInstance>
+                    <elementDefinition Id="8580da54-0108-4692-b301-aac06ebd38c1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e46b8c55-36ce-4ef1-9aa1-baebb9cb2886">
+                    <propertyInstance Id="355ee0f6-75f9-49cc-96f0-9070874695aa" name="Get" value="none">
+                      <elementDefinition Id="02601e9b-933c-4492-97f5-483a6765f798" />
+                    </propertyInstance>
+                    <elementDefinition Id="bbf3347e-76c9-40a2-b1f7-7e8651d1f2e3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5e087a87-99df-4ba1-9f8c-dd4c833b70bc">
+                    <propertyInstance Id="7da0ab27-a02b-418f-87bc-d606bb551b0e" name="HasBody" value="false">
+                      <elementDefinition Id="b7d37b6e-69d5-4ae5-8850-a95a3dcda4d8" />
+                    </propertyInstance>
+                    <elementDefinition Id="60f651cc-c535-4315-9bf0-006b1d7167a8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="506c726f-9a5d-45ab-b0a1-f942f94e603f">
+                    <propertyInstance Id="5d55425c-d988-4230-89cb-8a4262404322" name="IsUnsafe" value="false">
+                      <elementDefinition Id="33e4f359-f68c-42b8-93cd-2c3f739fb2b0" />
+                    </propertyInstance>
+                    <elementDefinition Id="aa0b7dc5-93a0-4d51-8324-33d5f125595c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ccc33057-fef5-481c-9cb0-83914924d7b3">
+                    <propertyInstance Id="e9d64839-ec87-4cfd-a92d-fe20e65b6946" name="Inheritance" value="none">
+                      <elementDefinition Id="e86d25ac-3d20-4902-bdf1-c6db7921b25a" />
+                    </propertyInstance>
+                    <elementDefinition Id="3696d55d-a47d-43f2-83cf-be45139e9a27" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d0681907-d86a-41bc-9728-0e03518e5ddb">
+                    <propertyInstance Id="73a95210-a7a9-48c0-b545-8f91303df000" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="1c8fe740-6ebb-493f-9cc3-69c72d843960" />
+                    </propertyInstance>
+                    <elementDefinition Id="4f614f63-cc45-40cb-bab1-31f6bc0a9dae" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e7698bcf-a73d-46d9-a79a-0b6e2eb15472">
+                    <propertyInstance Id="b84ab949-75ce-459c-bc46-32c15f2ed836" name="Set" value="none">
+                      <elementDefinition Id="92055c45-7c3e-429b-b8b7-755d476b646c" />
+                    </propertyInstance>
+                    <elementDefinition Id="ebf35a44-2b45-431f-aa22-05393edcf4e1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="d750303b-eb3f-4b63-a58f-76d6197a0153" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="62a2aac4-8599-405e-ab07-30c3c07d01d2" LastKnownName="List&lt;Message&gt;" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="896be2dd-a72a-499f-a8ef-01a0c3c930af" name="newMessage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="43dab514-fcb1-49c3-b875-6a296ecee41d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="274e8ab2-d625-4a71-94ec-995bcee88213" direction="Return" isUnique="false">
+                  <elementDefinition Id="8ca5202e-3553-4b99-a0df-fd1e53ffe36d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="187ecf91-d9f7-43f2-9c16-b5fb084bd962" LastKnownName="Boolean" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3144a573-d658-4a09-ac5b-3ffc8ca7033d" name="messageHeader" direction="In" isUnique="false">
+                  <elementDefinition Id="34d96e59-bb40-4342-a7c1-4fb9e164508d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="66e66749-6fbf-449f-abe7-47482b11f00e" name="messageID" direction="In" isUnique="false">
+                  <elementDefinition Id="bb60631c-ba48-4bf3-b658-0b2e02758c2f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="bf0a3894-ed0d-4ab8-a30a-57aa0420db66" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a7eb6eaa-ac45-4a47-8e50-2bc472ae9469" name="messageSender" direction="In" isUnique="false">
+                  <elementDefinition Id="f3236319-b6be-4c7e-8c19-47e85b4038af" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ec3b8bea-a8f9-44fa-81b1-e566cab9d081" name="messageBody" direction="In" isUnique="false">
+                  <elementDefinition Id="d9552aa0-07f1-4962-a356-3b85c2d7201d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f86a84ef-00c3-410e-94df-88bce106126a" name="messageSubject" direction="In" isUnique="false">
+                  <elementDefinition Id="a8b8cc33-960e-4b9f-b3f2-ace801b6e4a0" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="584801f6-3447-40c0-8147-674831afe029" name="getMessageList" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8b9edd72-31da-44b9-aafa-827c7b54ac71" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c036afd8-9261-4071-8166-dad4aa248808" direction="Return">
+                  <elementDefinition Id="b8cc8fbf-cc63-49c6-8940-5f6bd650eb58" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="50870f53-4b3e-4e17-b635-394114c4fedb" LastKnownName="List&lt;Message&gt;" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="501b9b13-d434-4287-b2ab-5c22a4ff1fb1" name="getAllMentions" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="372975d0-3faa-42e2-8dbf-153096e9f696" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="7a1b6934-0de5-4113-ba1e-5f173d407a05" direction="Return">
+                  <elementDefinition Id="032b68bd-0bc2-4ce1-a3bd-93d8f68f4c0b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="8ec32e1d-7fc4-4fa4-ab13-97a0abbbbd6a" LastKnownName="List&lt;string&gt;" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="c92daac8-e2d0-4edd-a0b4-0ffd0fa2effc" name="getAllHashtags" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3fae60fc-9314-4c96-9dbd-05d7f6154f2a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="040e6e16-56f0-425a-a6b6-8b4ddd01ac82" direction="Return">
+                  <elementDefinition Id="4b1f0d70-6391-4dc9-8a4c-ad94fd4639d0" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9506fddb-6029-434c-9896-baffdfdcc06b" LastKnownName="List&lt;string&gt;" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="90ac314c-d519-40c8-a31a-9ff505d46ea6" name="getAllSirIncidentCodes" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e0cb587a-907c-4bf0-a2b4-6528a126a5c7" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="b41ffc45-571b-4e4f-875a-ab4070faf6a8" direction="Return">
+                  <elementDefinition Id="2fb61f9f-7928-4039-b581-b124913229d5" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="522a392d-ad81-4916-a34b-40feac24489c" LastKnownName="List&lt;string&gt;" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="c665334e-aa0e-4456-ba8a-30ef1f3d42a2" name="NBMFilteringService" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e0ee16e8-6ebb-47c7-ab63-06eeddf0827b" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e89049d9-1409-4539-9136-0c337e89bcf8" name="Message" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="cacd2540-d9f2-4861-860c-0a7cd3c217cc" />
+        <targetEnds>
+          <association Id="641d3562-58de-4625-ad6e-f2bf52d737f5" isDerived="false" sourceEndRoleName="Message" targetEndRoleName="Sanitizing" isLeaf="false" isAbstract="false">
+            <interfaceMoniker Id="be455032-1173-43dc-ad52-ce765371634c" LastKnownName="Sanitizing" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a0443f1d-37ce-4dd0-b2ea-7c3b2c2cee20" name="Message" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ff240cb4-df20-4bcb-a397-022e5747c563" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8a3fefde-f17e-4c34-bce5-1c94009348ff" name="Sanitizing" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b941159c-d952-4c46-b713-a42a9e759439" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c75ac892-391b-47e4-a9ad-6421f01575f7" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="337f34c8-adc2-4561-93a7-87635624599d" name="SanitizeBehaviour" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1dbeacdd-54a3-41e5-b85c-101e8840e54d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="fce8be74-d9af-4885-af59-d51df0f02f2a" LastKnownName="Sanitizing" />
+            </type_NamedElement>
+          </property>
+          <property Id="48bf9cf5-bed6-44a8-90fb-aa77f9252477" name="Sender" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="231c47e2-dc82-4651-b471-f00a69205ccc" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="47dc6042-6e41-4828-b056-15b9b3cab5b4" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="c966dd99-f800-4a55-ab47-53f8a3ac0742" name="MessageText" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6114db48-3103-4f63-93a0-b103abd06985" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="c8654d55-70f3-4090-8a9d-8c3e7e747dcb" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="1cb8f6ee-e688-4062-ace6-cf4c6bd5846b" name="MessageID" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="eb2d74d4-2521-4b2f-b725-8306ab495f7e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bf0a3894-ed0d-4ab8-a30a-57aa0420db66" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="4afc45b0-8996-41cb-a27f-a49ad65c77f8" name="Message" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c6f94a18-91e9-49af-b8a1-9f9695ee1d29" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="917d1107-3b51-4740-93fe-2986af901c16" name="messageID" direction="In" isUnique="false">
+                  <elementDefinition Id="d9ad23bf-ae51-4220-be15-a3aa4d2dd9f8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a455016e-fee0-4e12-9dde-c236aaef35d6" name="messageText" direction="In" isUnique="false">
+                  <elementDefinition Id="02530b5a-014e-4b31-92b8-16db38f7e996" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="6d0e914f-8332-4f0f-bb73-099d7b6bfaf4" name="sender" direction="In" isUnique="false">
+                  <elementDefinition Id="94c80c4c-af71-47de-bf41-48118e9fb925" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1382786c-2306-4f2e-ac1b-cf2afd3ad0ec" name="sanitizeBehaviour SanitizeBehaviour" direction="In" isUnique="false">
+                  <elementDefinition Id="c053d93b-d257-49bd-a6a6-2d881901b51d" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="e9f191c1-06c7-4d77-9068-07b0003408a3" name="sanitizeMessage" visibility="Protected" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c47590d6-9b2a-465f-83ea-4914306c9eaa" />
+          </operation>
+          <operation Id="50441591-8749-4286-b765-4b91607c760d" name="getMessageText" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f8b56fc0-f5a9-4f06-b95f-a2f2364f48b9" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9e11c812-5bd1-483f-a665-944eb1cd21d6" direction="Return">
+                  <elementDefinition Id="a9b1f37a-3ac4-4ef8-bd2a-a89d77afb401" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f7e0ea84-946d-479a-91c4-b58baca44b10" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="71f0debb-3336-4fc6-ac21-81fecc1b8ad5" name="getSender" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="07531978-9d75-4258-8c2e-d84afdf8e4dc" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="23e31cfc-ff1f-418b-937b-0ac4578857e9" direction="Return">
+                  <elementDefinition Id="b1423c1b-3004-4c73-ae25-6275345bdbf8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="839c9963-fe68-4b4a-a369-c29247a92776" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a359ab64-3675-41b4-80e4-3d956c21b3b5" name="SMSMessage" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="56d91ea6-509b-4b90-b6d3-09ac57a2ced5" />
+        <generalsInternal>
+          <generalization Id="eabda64b-1fc6-4219-9b13-541eeb944130" isSubstitutable="false">
+            <classMoniker Id="e89049d9-1409-4539-9136-0c337e89bcf8" LastKnownName="Message" />
+            <elementDefinition Id="a2171a8f-4a0b-44bd-974c-3bf722ca740c" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="a99834b7-1759-4b9a-909a-d49344edac74" name="SMSMessage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="08022d0e-dee8-4ddf-8b81-10b76bf09dc5" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="aa2a4a7e-4f3c-4703-ba64-5e408d4aa721" name="messageID" direction="In" isUnique="false">
+                  <elementDefinition Id="5aa325c5-3195-4db2-b767-ce11041082b3" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="52d341d5-e60d-4c98-a4bb-4abbb9dbd313" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4f9df77a-bea1-4197-bcd6-ddadaa4486c1" name="messageText" direction="In" isUnique="false">
+                  <elementDefinition Id="5a069e25-2013-43bd-86e5-4836143609b1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e328bf56-5468-46ab-9c63-c04969dd9b3c" name="sender" direction="In" isUnique="false">
+                  <elementDefinition Id="53bb3e4c-c402-40ce-aa56-58400f91fdfd" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1ac4ace6-7c3d-45ee-9250-e1d959f2dba0" name="sanitizeBehaviour Sanitizing" direction="In" isUnique="false">
+                  <elementDefinition Id="b3a5b489-dc80-4437-b41b-9b2f928f77ef" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="aa350a7a-42a1-42f0-bcfa-461e35dec34f" name="Tweet" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9e287e18-bfca-44eb-9549-4c9926764213" />
+        <generalsInternal>
+          <generalization Id="873a4cd3-2b32-46d6-9ec5-67bc7abbb4f8" isSubstitutable="false">
+            <classMoniker Id="e89049d9-1409-4539-9136-0c337e89bcf8" LastKnownName="Message" />
+            <elementDefinition Id="e792d873-e188-4226-be7d-c8b35a42c8ad" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="021ae7d0-9895-451f-a5d0-44b2e9ac3699" name="mentionsList" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ddd9aa2c-640f-4ee8-bd78-da678504bc63" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b708cddd-3a77-45f3-ae1e-8eaf6e51954b" LastKnownName="List&lt;string&gt;" />
+            </type_NamedElement>
+          </property>
+          <property Id="92660aef-b360-4f38-80da-33734ec4c296" name="hashtagList" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="28804722-a2f7-42ec-ad71-b41ff26c66c1" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="29a166ff-1c3a-43af-9c05-518d756d84ee" LastKnownName="List&lt;string&gt;" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="efc1f9ab-ade9-450f-b490-f83817a69e98" name="Tweet" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5fcd4939-dcf8-4d41-9efe-3a80ffc0151d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ee9c0985-8852-4e4c-a33d-f217e177bc57" name="messageID" direction="In" isUnique="false">
+                  <elementDefinition Id="12d9e299-9586-4f41-bdd4-05238abb912f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="051087c5-60dd-49e3-990f-94067783a598" name="messageText" direction="In" isUnique="false">
+                  <elementDefinition Id="4dc73d25-b108-4466-bdae-f5658c1c6a0f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ca8e7c26-48f4-472f-95ef-c407ca21998c" name="sender" direction="In" isUnique="false">
+                  <elementDefinition Id="9bb41dc8-b3c7-405c-85c4-3411b8bc39c7" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="7a126cf0-6474-4dde-b878-cb0a21a7d4cf" name="sanitizeBehaviour Sanitizing" direction="In" isUnique="false">
+                  <elementDefinition Id="8ae8b68e-629d-4cc1-a01b-d88214fc6cfb" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="f4857cb6-aca9-4cdc-b9e2-949588071c44" name="getHashtagList" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5a62e099-da04-4939-b552-60e3a5825ad5" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="eafdce91-6d97-438f-ad0c-a1ce30a67f99" direction="Return">
+                  <elementDefinition Id="16b1e065-e02c-4bff-81e1-b381c9e2dc9c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9b71bed1-b9b7-4c01-86bd-49ab4ce0e37d" LastKnownName="List&lt;string&gt;" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="3da838d3-a028-4526-a987-353e1fbc25bd" name="getMentionsList" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9f03c8b4-032c-4d17-8166-33f3593454e1" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="cd5c1a3a-e862-4b3f-a4af-75b78559c5e3" direction="Return">
+                  <elementDefinition Id="0d84f0d1-9f44-4877-8cb7-dcd88387e761" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9908ae70-91c9-4b66-b712-bb28f74af64d" LastKnownName="List&lt;string&gt;" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7140a57b-419d-4425-9a51-e70d0e1c497c" name="Email" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="846825d4-272a-4103-b67b-51f13e8d004e" />
+        <generalsInternal>
+          <generalization Id="78981a76-f056-47dd-886c-c752d54de0d8" isSubstitutable="false">
+            <classMoniker Id="e89049d9-1409-4539-9136-0c337e89bcf8" LastKnownName="Message" />
+            <elementDefinition Id="f15ed698-9b97-4ada-85df-aa43a86cf209" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="1a421670-ca17-4207-b92e-e8e5547884a8" name="Subject" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ce4c9521-0e8e-43ad-8e4c-7be45e038584" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b62b7fb0-2b53-473d-add9-4d0f01af9ad2" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="d52e2c69-58b8-4d53-925a-217d1c967207" name="Email" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1700d265-a6d0-4cca-a5e2-9e75f91332b5" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1977c5eb-d942-4d01-a67f-fe3a329f9022" name="subject" direction="In" isUnique="false">
+                  <elementDefinition Id="b8378b2e-7a73-48e9-b9bb-37947900c7e1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4d794e89-ee03-427c-9b2a-e0bffe8f8faa" name="messageID" direction="In" isUnique="false">
+                  <elementDefinition Id="952c1496-9d37-4a3a-a44e-cccdea30c717" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="153b1177-8add-4187-b615-79c19c592315" name="messageText" direction="In" isUnique="false">
+                  <elementDefinition Id="c0cb156f-112a-4312-8d58-3dc727f987b9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e80ea4a0-4f9e-4881-a7c6-9a96bbae2ee0" name="sender" direction="In" isUnique="false">
+                  <elementDefinition Id="6a7cd916-7f4a-4cc2-8762-543e4e97c0e9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="cca0215a-ca37-4266-9ab6-48dff05df6eb" name="sanitizeBehaviour Sanitizing" direction="In" isUnique="false">
+                  <elementDefinition Id="7881f187-a33a-4661-8574-f53bf2cb3449" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="94ef02b7-a29f-48ce-99e0-8eaa881486a2" name="getSubject" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="aadd9869-5aa7-4680-b8e8-ed180ed727c4" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="61d868f6-22a8-40dd-8c76-f6f134a28c0e" direction="Return" isUnique="false">
+                  <elementDefinition Id="400a7c51-ebb5-4ba4-9984-df3a330bd061" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="b9f27d06-f18c-4374-b848-00b782d36b84" LastKnownName="string" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="056cfb54-b2d3-4171-904b-00229c95a6a4" name="StandardEmail" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="95132782-2680-4266-afed-b1af088ac361" />
+        <generalsInternal>
+          <generalization Id="4464aa16-b5f9-4ce5-9fb7-fd62845d1e86" isSubstitutable="false">
+            <classMoniker Id="7140a57b-419d-4425-9a51-e70d0e1c497c" LastKnownName="Email" />
+            <elementDefinition Id="f259f0f4-ed85-4f66-aa51-53addd62265f" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="4353666c-cd0e-4b97-a83e-c6d4493a4803" name="StandardEmail" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="22888a7e-5622-4ded-8c67-80a273be827a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f0948318-b605-4628-82d4-4830627c659c" name="subject" direction="In" isUnique="false">
+                  <elementDefinition Id="723e0589-0ce5-4c61-9e5a-7571a0511a5d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2469d653-ffc7-4557-baa6-fa1cf486b5b6" name="messageID" direction="In" isUnique="false">
+                  <elementDefinition Id="8c2d11ba-c5de-4b9c-bc08-5d788bb6966d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="b3c6ff7f-54bf-4056-bd70-c0dc1acc0f4f" name="messageText" direction="In" isUnique="false">
+                  <elementDefinition Id="e1a21f7c-558c-42ad-9b2a-0f4c5ccbbc42" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2f9d7ebf-c14d-4edd-8c3f-303292b3d3b3" name="sender" direction="In" isUnique="false">
+                  <elementDefinition Id="07777fef-3e7c-4dea-9cb7-471708a2a471" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="7f996d60-9831-4b37-8851-6514aee4ac0f" name="sanitizeBehaviour Sanitizing" direction="In" isUnique="false">
+                  <elementDefinition Id="9d0b8a60-a0fb-4f07-ab46-b9dcef24fed6" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a731eb57-6ffa-454d-a3bb-2238f048d855" name="SIREmail" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7c907536-2e39-4f85-8e81-3bda6ea0daa9" />
+        <generalsInternal>
+          <generalization Id="315066e2-0bae-4d15-a274-e953ac78ab8e" isSubstitutable="false">
+            <classMoniker Id="7140a57b-419d-4425-9a51-e70d0e1c497c" LastKnownName="Email" />
+            <elementDefinition Id="d16440da-5e8b-4dd9-81c5-f065db7bd36a" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="0d405ce9-c2bb-4df0-bc8c-0fa17ea45048" name="SirIncidentCode" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5a9e558a-b0da-4013-9063-a863cdd383f6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="cdd1bb8b-62e1-4772-acbd-45726446ad82" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="91a06c91-5015-41d4-b898-453cde51d38c" name="SortCode" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4286b70d-2baf-4f4f-878d-4cb8118ea48d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="7fdd9668-872e-40b5-b5fe-6599e1bd32e1" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="774d76dc-7f5b-4da4-a114-c859471aea8a" name="SIREmail" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="702a9659-bb7f-4a65-9e36-518e7ce70a6d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5cab5bd9-8ec3-41d7-b57f-64d3beb8bddb" name="subject" direction="In" isUnique="false">
+                  <elementDefinition Id="219000eb-99ee-4351-975a-c0482d557a9d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="25d260d4-1d1c-41bf-8d00-d2088ffbc774" name="messageID" direction="In" isUnique="false">
+                  <elementDefinition Id="ba4cf41c-227e-4809-a10e-31f54dd583d9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2ecb0608-c4f7-4ff8-8d13-4ddcce4e306e" name="messageText" direction="In" isUnique="false">
+                  <elementDefinition Id="09022f3b-7ecd-4ee9-b29a-d4235783402e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="cf46e8a6-9de5-4316-b44d-baf8b2b8e5c7" name="sender" direction="In" isUnique="false">
+                  <elementDefinition Id="47dbb660-30a2-4fe1-a837-a264219df6c6" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="63215a3d-7f64-4542-b823-f16cbd26699e" name="sortCode" direction="In" isUnique="false">
+                  <elementDefinition Id="8f1792c3-eccd-4f5a-a6ef-748490e2ea0d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5dacacac-41d1-4e3e-9dd3-e17334de0d97" name="sirIncidentCode" direction="In" isUnique="false">
+                  <elementDefinition Id="39bef1b8-1e16-459f-bfdf-85750f1189f1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c2734811-d352-4898-aee8-60ab3b15709c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="b8119f11-53ff-4438-887b-3ad6546b364f" name="sanitizeBehaviour Sanitizing" direction="In" isUnique="false">
+                  <elementDefinition Id="be5780b1-5ae8-4171-8feb-ae312789443f" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="7fe13ec2-206c-43aa-bf22-06d3a9996f57" name="getSirIncidentCode" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="cfe4da4f-216c-44a8-995d-33e885494e04" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="41774c64-c5a2-4c01-b504-c24c7438bfa1" direction="Return">
+                  <elementDefinition Id="f28ab6f0-699a-424d-ac3a-1f91bcff1cdd" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="bb027843-9a6a-405d-b3e6-7ff6690547a3" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="8bcb51bf-50ac-4385-8c24-669a3ddc3f3e" name="getSortCode" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d75b8c90-700b-418c-a35e-a44e2fa08a6c" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="dbdc5580-f35b-4681-9035-e4cec77ec9e5" direction="Return">
+                  <elementDefinition Id="41c31b75-c815-4d49-8d02-dd37edd1db92" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9868b6ad-10ae-4c1e-92e4-8f45a1c5ca61" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="be455032-1173-43dc-ad52-ce765371634c" name="Sanitizing" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2bf665c8-57bb-4f61-8ad8-552e67bc8d52" />
+        <ownedOperations>
+          <operation Id="07db1042-489b-418a-b4c0-009d341000e6" name="sanitizeMessage" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d92ebe80-44c8-4935-b55c-79fbf078ba27" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="95b790ed-7a9b-455f-8017-3570b8088bdc" name="Message messageToSanitize" direction="In" isUnique="false">
+                  <elementDefinition Id="b7462c4e-39ac-47fe-bf8b-1176c79a9534" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="04f0b52f-ddbf-4247-ae79-64c46c386fce" direction="Return">
+                  <elementDefinition Id="b34fa0dc-f17c-41ae-b487-bc427cee077a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ac4496f5-559b-4b02-8bc0-c82884d6cf99" LastKnownName="Message" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2543ba1c-e02d-48d4-b5ce-228b1afbd4cb" name="SMSSanitizing" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="14874e7d-1a31-4c3b-87e4-83f346a7d9a8" />
+        <suppliersInternal>
+          <interfaceRealization Id="18f7e408-6c14-4c11-be6d-a439037cfa8a">
+            <interfaceMoniker Id="be455032-1173-43dc-ad52-ce765371634c" LastKnownName="Sanitizing" />
+            <elementDefinition Id="dbba3239-194b-4530-b013-9a37554de3c5" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="0157f253-2196-42db-9740-2757f4f20e7b" name="sanitizeMessage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6cbec295-0ca4-40ed-a31a-1b137f08bdba" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8e5bf316-ffe2-4bbb-9531-e98fdd434eab" name="Message messageToSanitize" direction="In" isUnique="false">
+                  <elementDefinition Id="09e9bd9e-20db-4217-babb-a00e996021a7" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="05e12d63-e19c-4cb3-82cd-f8e61a2f2adf" direction="Return">
+                  <elementDefinition Id="6811380b-4374-48dc-8ed0-da27849cd312" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ac4496f5-559b-4b02-8bc0-c82884d6cf99" LastKnownName="Message" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="558900f4-656e-468e-b1a5-ca910bba9ebf" name="TweetSanitizing" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a994eabb-0ba1-4e6c-a3e8-69b20f51d241" />
+        <suppliersInternal>
+          <interfaceRealization Id="7c99c888-c7bf-4053-9e93-196aebe864b0">
+            <interfaceMoniker Id="be455032-1173-43dc-ad52-ce765371634c" LastKnownName="Sanitizing" />
+            <elementDefinition Id="06a10cb4-50a0-4453-bf5b-5362270fd466" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="d6636f87-3e1e-44de-be08-c5c794d8f3d5" name="sanitizeMessage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ee348b7a-0711-430e-a442-692dde13ffdd" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="726c04ed-209c-46d1-993d-4e9fc22644ec" name="Message messageToSanitize" direction="In" isUnique="false">
+                  <elementDefinition Id="35913c8a-cd95-4871-a8ee-abd372689a04" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="38f17c4e-c108-4dce-b770-162294c43891" direction="Return">
+                  <elementDefinition Id="65797501-279e-425c-a08c-e4b57638dbd0" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ac4496f5-559b-4b02-8bc0-c82884d6cf99" LastKnownName="Message" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="eb3e8364-2d02-437f-8615-222e0403d09c" name="EmailSanitizing" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="af777ab5-1720-4990-b8e6-b4db60f1121c" />
+        <suppliersInternal>
+          <interfaceRealization Id="5377c247-c6d3-4a8d-bbcd-50b2343dd226">
+            <interfaceMoniker Id="be455032-1173-43dc-ad52-ce765371634c" LastKnownName="Sanitizing" />
+            <elementDefinition Id="603774bd-7b0a-45b5-9f8e-8d556cdf31d6" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="f60555c2-7711-43c2-a541-5b88f8bc670b" name="sanitizeMessage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="eb4e853f-a79a-4392-9ff6-325c17647467" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3064fd90-eb2b-46e3-a44d-cf79a2537df4" name="Message messageToSanitize" direction="In" isUnique="false">
+                  <elementDefinition Id="1038ab36-c6ff-40d2-9eaa-b2c11b73b55d" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c24edaf4-ec19-4fb3-8686-1e14d3398559" direction="Return">
+                  <elementDefinition Id="02eb947e-9871-4ae8-b708-73d1012ec27a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ac4496f5-559b-4b02-8bc0-c82884d6cf99" LastKnownName="Message" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="fce8be74-d9af-4885-af59-d51df0f02f2a" name="Sanitizing" isAbstract="false" isLeaf="false" cachedFullName="NapierBankMessageFilteringService::Sanitizing">
+        <elementDefinition Id="2bf665c8-57bb-4f61-8ad8-552e67bc8d52" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="ac4496f5-559b-4b02-8bc0-c82884d6cf99" name="Message" isAbstract="false" isLeaf="false" cachedFullName="NapierBankMessageFilteringService::Message">
+        <elementDefinition Id="cacd2540-d9f2-4861-860c-0a7cd3c217cc" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="c2734811-d352-4898-aee8-60ab3b15709c" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="bf0a3894-ed0d-4ab8-a30a-57aa0420db66" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="b708cddd-3a77-45f3-ae1e-8eaf6e51954b" name="List&lt;string&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;string&gt;">
+        <elementDefinition Id="2aa4413e-419e-4d81-af0a-d2701d2be56e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="29a166ff-1c3a-43af-9c05-518d756d84ee" name="List&lt;string&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;string&gt;">
+        <elementDefinition Id="2aa4413e-419e-4d81-af0a-d2701d2be56e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="b62b7fb0-2b53-473d-add9-4d0f01af9ad2" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="62a2aac4-8599-405e-ab07-30c3c07d01d2" name="List&lt;Message&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Message&gt;">
+        <elementDefinition Id="e5004938-c9d6-4a8a-a156-eac0a94eafdb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="187ecf91-d9f7-43f2-9c16-b5fb084bd962" name="Boolean" isAbstract="false" isLeaf="false" cachedFullName="Boolean">
+        <elementDefinition Id="8943dc84-709e-4f62-b15a-a3273aa6f165" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="50870f53-4b3e-4e17-b635-394114c4fedb" name="List&lt;Message&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Message&gt;">
+        <elementDefinition Id="e5004938-c9d6-4a8a-a156-eac0a94eafdb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="9b71bed1-b9b7-4c01-86bd-49ab4ce0e37d" name="List&lt;string&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;string&gt;">
+        <elementDefinition Id="2aa4413e-419e-4d81-af0a-d2701d2be56e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="9908ae70-91c9-4b66-b712-bb28f74af64d" name="List&lt;string&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;string&gt;">
+        <elementDefinition Id="2aa4413e-419e-4d81-af0a-d2701d2be56e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="47dc6042-6e41-4828-b056-15b9b3cab5b4" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="c8654d55-70f3-4090-8a9d-8c3e7e747dcb" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="f7e0ea84-946d-479a-91c4-b58baca44b10" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="839c9963-fe68-4b4a-a369-c29247a92776" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="8ec32e1d-7fc4-4fa4-ab13-97a0abbbbd6a" name="List&lt;string&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;string&gt;">
+        <elementDefinition Id="2aa4413e-419e-4d81-af0a-d2701d2be56e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="9506fddb-6029-434c-9896-baffdfdcc06b" name="List&lt;string&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;string&gt;">
+        <elementDefinition Id="2aa4413e-419e-4d81-af0a-d2701d2be56e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="cdd1bb8b-62e1-4772-acbd-45726446ad82" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="bb027843-9a6a-405d-b3e6-7ff6690547a3" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="7fdd9668-872e-40b5-b5fe-6599e1bd32e1" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="9868b6ad-10ae-4c1e-92e4-8f45a1c5ca61" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="522a392d-ad81-4916-a34b-40feac24489c" name="List&lt;string&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;string&gt;">
+        <elementDefinition Id="2aa4413e-419e-4d81-af0a-d2701d2be56e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="b9f27d06-f18c-4374-b848-00b782d36b84" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="8f21a2b8-57ce-4768-ae9b-de93a55d7a5c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="52d341d5-e60d-4c98-a4bb-4abbb9dbd313" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="a7593854-eb41-445a-9d33-8df8c1bec212" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="2a5ccab5-5bc0-4141-a4c0-d28b442423b1" name="NapierBankMessageFilteringService">
+    <elementDefinition Id="2613f222-b3a0-4957-8c93-77bee6081200" />
+    <profileInstances>
+      <packageHasProfileInstances Id="3a2408b0-fd13-4332-b549-b9ec1d4860db">
+        <profileInstance Id="e04f1ffa-efee-4838-a21f-9e57428864cb" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="d340eadd-2e4e-4beb-abca-c8762549cc78">
+        <profileInstance Id="4f26b158-084f-468e-b94f-2142e0c90d40" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="5d5dfb40-3970-45b3-942a-9bec4bbe3883">
+        <profileInstance Id="b71166be-f2e6-4f65-add9-5fa026ba46d2" name="CSharpProfile">
+          <elementDefinition Id="3535f4ed-230f-42bd-8555-65e8df4939fe" />
+        </profileInstance>
+        <elementDefinition Id="970c68e3-d370-4266-9999-13e1cd39dd9d" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="9a27dfda-6879-4b55-a126-a3ebbeeaf78e">
+        <profileInstance Id="1ca1b131-75ba-4d2d-aea6-19a932f6b9d0" name="TextTemplateBindings">
+          <elementDefinition Id="b380e12e-283f-483d-a211-4ef1270ee65c" />
+        </profileInstance>
+        <elementDefinition Id="ef8463a1-2da0-45e0-babd-b805fb9866c9" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

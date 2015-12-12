@@ -1,0 +1,2061 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="2613f222-b3a0-4957-8c93-77bee6081200"
+  name="NapierBankMessageFilteringService" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <appliedStereotypesInternal>
+    <stereotypeInstance
+      Id="0f9dbe54-866f-4bc6-af84-69a1fa0dafbf"
+      name="namespace"
+      profile="CSharpProfile">
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="aa7bb2f8-fb82-4ff3-b354-30501720d8af">
+          <propertyInstance
+            Id="4361b45b-eaa0-460f-86b8-a7f73ab2362d"
+            name="BaseName" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="1c29650f-804a-4860-acd9-4af14cb02f6b">
+          <propertyInstance
+            Id="9154addd-0c8b-48ad-8f18-ab882d1a8899"
+            name="ClrAttributes" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="eb6f5b67-3260-4db6-bdb1-c40e8ef819b3">
+          <propertyInstance
+            Id="d8659862-43f7-45b2-adf2-0760e05f1204"
+            name="Usings" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance
+      Id="5bc8b745-5321-400b-83bb-6482b3fa3f22"
+      name="TextTemplateBindings"
+      profile="TextTemplateBindings">
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="c0fccc2a-c20d-4ff4-a8a6-de4b388602d0">
+          <propertyInstance
+            Id="715f2de3-be41-4c06-a511-32e074f010bb"
+            name="Alias"
+            value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="388668b4-79af-4c10-9ccb-fe309fb27764">
+          <propertyInstance
+            Id="63805abd-def1-4a2d-9786-da069ce32744"
+            name="TemplateFilePath"
+            value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="d9cbb7d1-a396-46d9-9a02-bf208c0c9885">
+          <propertyInstance
+            Id="9cc109cb-5efd-4703-b85a-bbd652e67d71"
+            name="ProjectPath"
+            value="ClassTemplate=..\NapierBankMessageFilteringServiceLib\NapierBankMessageFilteringServiceLib.csproj|EnumTemplate=..\NapierBankMessageFilteringServiceLib\NapierBankMessageFilteringServiceLib.csproj|InterfaceTemplate=..\NapierBankMessageFilteringServiceLib\NapierBankMessageFilteringServiceLib.csproj|StructTemplate=..\NapierBankMessageFilteringServiceLib\NapierBankMessageFilteringServiceLib.csproj" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="0cdb821c-735d-40c3-8570-260d08453f3f">
+          <propertyInstance
+            Id="e2bd0548-1528-41a7-9738-25a0b53c12b6"
+            name="TargetDirectory"
+            value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="66a160e5-c4bd-4222-bc15-5b3c6a022b74">
+          <propertyInstance
+            Id="7814bd9c-3096-441f-aef5-870b7892f80a"
+            name="TargetName"
+            value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="f1aa765f-2c5a-4131-b2e7-3edd914dbf7e">
+          <propertyInstance
+            Id="09a2f072-839c-4e75-b285-334b8559d360"
+            name="Overwrite"
+            value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="17083a8c-d8b8-4c8e-914f-3c69e549b81c">
+          <propertyInstance
+            Id="e2cccfc3-e956-4540-b864-2fbb9d5a0371"
+            name="Parameters" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="970c68e3-d370-4266-9999-13e1cd39dd9d">
+      <profileInstance
+        Id="3535f4ed-230f-42bd-8555-65e8df4939fe"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="ef8463a1-2da0-45e0-babd-b805fb9866c9">
+      <profileInstance
+        Id="b380e12e-283f-483d-a211-4ef1270ee65c"
+        name="TextTemplateBindings" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <activity
+        Id="ac04d88a-4293-4e0c-9868-285e670f476d"
+        name="NBMFS"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="76a78f9a-8c74-4d19-892b-ace8fe552896"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="1a65475b-0531-42fa-bf15-cbadad5c1ac0"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="95e1455c-b2d1-4eb3-9d00-511ce3b3d055"
+                  LastKnownName="UI Form / Console test app sends message."
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="90cf8d16-7d04-4222-afb4-ab4da691754a"
+            name="NBMFilteringService creates SMSMessage object with message details."
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="78e750c4-25ad-42ff-a375-b3b7b7af388f"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="d847387c-d5f1-4707-912f-0732f4ab767a"
+                  LastKnownName="NBMFilteringService sanitizes SMSMessage object. (Expands any abbreviations)"
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="95e1455c-b2d1-4eb3-9d00-511ce3b3d055"
+            name="UI Form / Console test app sends message."
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="74596248-73ed-464e-98d4-b1117dacb1ad"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="8a0dea0f-dc3b-4ee5-8639-19ac9c3be5c5"
+                  LastKnownName="NBMFilteringService reads message header."
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="8a0dea0f-dc3b-4ee5-8639-19ac9c3be5c5"
+            name="NBMFilteringService reads message header."
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="e709e04c-e1c9-4e68-b437-91cbdafebbef"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="2bb9255a-e685-40d2-92c4-0c141f9c81e1"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="d2ad444f-330c-4872-b2be-5c62908de9ac"
+            name="Decision3"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b7838dfd-e085-438f-8f86-fa69be7fb20a"
+                guard="Message is type &quot;S&quot;."
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="90cf8d16-7d04-4222-afb4-ab4da691754a"
+                  LastKnownName="NBMFilteringService creates SMSMessage object with message details."
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="62ff0c84-63ba-4b2e-9546-79b9b623b6d6"
+                guard="Message is type &quot;T&quot;."
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="beb262e1-1d77-43a6-8fa0-dca8d81e082d"
+                  LastKnownName="NBMFilteringService creates Tweet Object with message details."
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="60a20e57-4695-48ce-9311-d697bc1b83c5"
+                guard="Message is type &quot;E&quot;."
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="413ef5c8-0523-4197-8d22-c2651cbacd3b"
+                  LastKnownName="What type of email is it?"
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="beb262e1-1d77-43a6-8fa0-dca8d81e082d"
+            name="NBMFilteringService creates Tweet Object with message details."
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="15f27578-1e14-4e01-966e-10ab44c0a296"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="713c3ffc-70b6-470b-a05d-f2237859efc4"
+                  LastKnownName="NBMFilteringService sanitizes Tweet object. (Expands abbreviations &amp; lists hashtags, mentions)"
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="413ef5c8-0523-4197-8d22-c2651cbacd3b"
+            name="What type of email is it?"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="7f3b0047-e9eb-401c-8395-7797b1d58e06"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="2d2e2f23-882f-4988-9726-c570bf06c853"
+                  LastKnownName="Decision5"
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="2d2e2f23-882f-4988-9726-c570bf06c853"
+            name="Decision5"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="36829a96-b3b0-442a-bb27-302cff03e7f6"
+                guard="Standard Email"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="4f18ad66-04ec-4128-a0dc-9a80e19dbe19"
+                  LastKnownName="NBMFilteringService creates StandardEmail Object with message details."
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="697702fe-bd23-4499-a847-d961ddcc6bf1"
+                guard="Significant Incident Report"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="40c21b0b-5be9-4734-9173-ccab70c8abfa"
+                  LastKnownName="NBMFilteringService creates a SIREmail Object with message details."
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="4f18ad66-04ec-4128-a0dc-9a80e19dbe19"
+            name="NBMFilteringService creates StandardEmail Object with message details."
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="684fd51e-6e06-45fd-b70c-0ed6c3f2871c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="b14b3db9-82b4-4931-a02a-d0e7ec83c4c4"
+                  LastKnownName="NBMFilteringService sanitizes StandardEmail object. (Replace URL's with &quot;&lt;URL Quarantined&gt;&quot;)"
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="40c21b0b-5be9-4734-9173-ccab70c8abfa"
+            name="NBMFilteringService creates a SIREmail Object with message details."
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b639aaee-cc70-447f-a2ac-89a2edf5e6c8"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="6a78a21f-ce9b-4938-a8cb-e307445ee9e3"
+                  LastKnownName="NBMFilteringService sanitizes SIREmail object. (Replace URL's with &quot;&lt;URL Quarantined&gt;&quot; &amp; takes note of significant incident)"
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="d847387c-d5f1-4707-912f-0732f4ab767a"
+            name="NBMFilteringService sanitizes SMSMessage object. (Expands any abbreviations)"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="7eca1e2f-ddc2-4b51-a2b5-db825f1f1541"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="aec80e0e-6e2b-47c0-b985-e0ea11af30e0"
+                  LastKnownName="NBMFilteringService writes the sanitized SMS Message to JSON format file. "
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="aec80e0e-6e2b-47c0-b985-e0ea11af30e0"
+            name="NBMFilteringService writes the sanitized SMS Message to JSON format file. "
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="84d6e088-9673-4579-b627-bb448979d58c"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="593216ee-d2eb-432f-a4de-474e314639d0"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="b7a0d137-f15d-494b-8a1e-6396858d5e3a"
+            name="NBMFilteringService  adds hashtags to hashtagList and mentions to MentionsList."
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="3504caeb-63c7-4c66-8d84-1f05a091022d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="06f6067a-af73-4053-9e74-82b043389334"
+                  LastKnownName="NBMFilteringService writes the sanitized Tweet to JSON format file. "
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="726bee72-2278-4421-ac74-7f2cdf7ae515"
+            name="NBMFilteringService writes the sanitized Email Message to JSON format file. "
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="59910a34-43bb-44ac-981e-3cda947a8d65"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="593216ee-d2eb-432f-a4de-474e314639d0"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="49b2d0d7-a9cb-4394-957c-92e932090a45"
+            name="NBMFilteringService adds significant incident report to SIRList."
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="01595f7b-ba20-42c9-85b3-daee6b31ae14"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="be757ddb-0d27-46cb-ad1c-5039dc2aa728"
+                  LastKnownName="NBMFilteringService writes the sanitized Email Message to JSON format file. "
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="06f6067a-af73-4053-9e74-82b043389334"
+            name="NBMFilteringService writes the sanitized Tweet to JSON format file. "
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="7716c1e1-60e8-4086-9444-43c049f5760e"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="593216ee-d2eb-432f-a4de-474e314639d0"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="be757ddb-0d27-46cb-ad1c-5039dc2aa728"
+            name="NBMFilteringService writes the sanitized Email Message to JSON format file. "
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="62b3261a-b065-4723-93af-a521cb098655"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="593216ee-d2eb-432f-a4de-474e314639d0"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="593216ee-d2eb-432f-a4de-474e314639d0"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <decisionNode
+            Id="2bb9255a-e685-40d2-92c4-0c141f9c81e1"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="788dd1dc-2033-4608-b3a6-c7cda29b7896"
+                guard="Not valid message."
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="95e1455c-b2d1-4eb3-9d00-511ce3b3d055"
+                  LastKnownName="UI Form / Console test app sends message."
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="72c171e0-1ef9-4616-b149-b9cb354438de"
+                guard="Valid message."
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="96341bc6-9bf3-4466-8914-803fbc36ab1a"
+                  LastKnownName="What type of message is it?"
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="96341bc6-9bf3-4466-8914-803fbc36ab1a"
+            name="What type of message is it?"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="962bddf0-935a-406c-82f2-e9ed95ee263f"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="d2ad444f-330c-4872-b2be-5c62908de9ac"
+                  LastKnownName="Decision3"
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="713c3ffc-70b6-470b-a05d-f2237859efc4"
+            name="NBMFilteringService sanitizes Tweet object. (Expands abbreviations &amp; lists hashtags, mentions)"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="815d932b-9cb9-4555-8e48-7bd0f0b3dc13"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="b7a0d137-f15d-494b-8a1e-6396858d5e3a"
+                  LastKnownName="NBMFilteringService  adds hashtags to hashtagList and mentions to MentionsList."
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="b14b3db9-82b4-4931-a02a-d0e7ec83c4c4"
+            name="NBMFilteringService sanitizes StandardEmail object. (Replace URL's with &quot;&lt;URL Quarantined&gt;&quot;)"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="4cff8201-bb32-489d-901e-f64e80e0901a"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="726bee72-2278-4421-ac74-7f2cdf7ae515"
+                  LastKnownName="NBMFilteringService writes the sanitized Email Message to JSON format file. "
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="6a78a21f-ce9b-4938-a8cb-e307445ee9e3"
+            name="NBMFilteringService sanitizes SIREmail object. (Replace URL's with &quot;&lt;URL Quarantined&gt;&quot; &amp; takes note of significant incident)"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f6b3944e-fef4-43b7-877b-2dd3815129f5"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="49b2d0d7-a9cb-4394-957c-92e932090a45"
+                  LastKnownName="NBMFilteringService adds significant incident report to SIRList."
+                  LastKnownLocation="NapierBankMessageFilteringService.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0d8365fb-7bbb-4f24-8a7a-5f16a5c84c46"
+        name="NBMFilteringService "
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5da57257-c836-457a-a8f7-b48c50139c5e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f5a52f31-6051-4804-a77e-7bd4e7b406c7">
+                <propertyInstance
+                  Id="c497776b-cac9-4aab-9802-ab137fb8f232"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="80a6f3df-a3b2-4249-bd3a-8329fe611079">
+                <propertyInstance
+                  Id="97a39691-1515-4155-a4d9-31214b246184"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="92a3cd40-926b-46d8-837a-3fa2cca616b9">
+                <propertyInstance
+                  Id="935ba07b-62a3-45d1-9f45-6397228b9d51"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="136b03b6-7bef-474e-9fd2-7bba578e27a2">
+                <propertyInstance
+                  Id="17f4f10b-988f-4b48-9c3f-18941afd9578"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="405b4d24-eb5c-4eff-80b6-35fc8c2181ff">
+                <propertyInstance
+                  Id="1599273c-fe38-4c1b-b1e3-ed7b9320709c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="c4875593-90e8-4a4b-a15c-fbb2c0d33610"
+            isDerived="false"
+            sourceEndRoleName="NBMFilteringService "
+            targetEndRoleName="Message"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="cacd2540-d9f2-4861-860c-0a7cd3c217cc"
+              LastKnownName="Message"
+              LastKnownLocation="NapierBankMessageFilteringService.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b45904d9-eaa6-46a7-b26a-f9b2216e34fa"
+                  name="NBMFilteringService "
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4dced4e7-f197-4482-a511-330fd1ce73aa"
+                  name="Message"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="c24c1bd8-39e3-4006-ba6b-4c2dd13b426c"
+                      name="Lower"
+                      value="0" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="c4179b3d-31c5-47bd-928d-e51a28a0dc92"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="d750303b-eb3f-4b63-a58f-76d6197a0153"
+            name="MessageList"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fe7b22fb-6592-4a6a-81d0-34748a7dd96b"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8580da54-0108-4692-b301-aac06ebd38c1">
+                    <propertyInstance
+                      Id="7e64ff31-0cfa-4741-862b-3b81606a798b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bbf3347e-76c9-40a2-b1f7-7e8651d1f2e3">
+                    <propertyInstance
+                      Id="02601e9b-933c-4492-97f5-483a6765f798"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60f651cc-c535-4315-9bf0-006b1d7167a8">
+                    <propertyInstance
+                      Id="b7d37b6e-69d5-4ae5-8850-a95a3dcda4d8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa0b7dc5-93a0-4d51-8324-33d5f125595c">
+                    <propertyInstance
+                      Id="33e4f359-f68c-42b8-93cd-2c3f739fb2b0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3696d55d-a47d-43f2-83cf-be45139e9a27">
+                    <propertyInstance
+                      Id="e86d25ac-3d20-4902-bdf1-c6db7921b25a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f614f63-cc45-40cb-bab1-31f6bc0a9dae">
+                    <propertyInstance
+                      Id="1c8fe740-6ebb-493f-9cc3-69c72d843960"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ebf35a44-2b45-431f-aa22-05393edcf4e1">
+                    <propertyInstance
+                      Id="92055c45-7c3e-429b-b8b7-755d476b646c"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="e5004938-c9d6-4a8a-a156-eac0a94eafdb"
+                LastKnownName="List&lt;Message&gt;"
+                LastKnownLocation="NapierBankMessageFilteringService.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="43dab514-fcb1-49c3-b875-6a296ecee41d"
+            name="newMessage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8ca5202e-3553-4b99-a0df-fd1e53ffe36d"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="34d96e59-bb40-4342-a7c1-4fb9e164508d"
+                  name="messageHeader"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bb60631c-ba48-4bf3-b658-0b2e02758c2f"
+                  name="messageID"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f3236319-b6be-4c7e-8c19-47e85b4038af"
+                  name="messageSender"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d9552aa0-07f1-4962-a356-3b85c2d7201d"
+                  name="messageBody"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a8b8cc33-960e-4b9f-b3f2-ace801b6e4a0"
+                  name="messageSubject"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8b9edd72-31da-44b9-aafa-827c7b54ac71"
+            name="getMessageList"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b8cc8fbf-cc63-49c6-8940-5f6bd650eb58"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="e5004938-c9d6-4a8a-a156-eac0a94eafdb"
+                      LastKnownName="List&lt;Message&gt;"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="372975d0-3faa-42e2-8dbf-153096e9f696"
+            name="getAllMentions"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="032b68bd-0bc2-4ce1-a3bd-93d8f68f4c0b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="2aa4413e-419e-4d81-af0a-d2701d2be56e"
+                      LastKnownName="List&lt;string&gt;"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3fae60fc-9314-4c96-9dbd-05d7f6154f2a"
+            name="getAllHashtags"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4b1f0d70-6391-4dc9-8a4c-ad94fd4639d0"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="2aa4413e-419e-4d81-af0a-d2701d2be56e"
+                      LastKnownName="List&lt;string&gt;"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e0cb587a-907c-4bf0-a2b4-6528a126a5c7"
+            name="getAllSirIncidentCodes"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2fb61f9f-7928-4039-b581-b124913229d5"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="2aa4413e-419e-4d81-af0a-d2701d2be56e"
+                      LastKnownName="List&lt;string&gt;"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e0ee16e8-6ebb-47c7-ab63-06eeddf0827b"
+            name="NBMFilteringService"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="cacd2540-d9f2-4861-860c-0a7cd3c217cc"
+        name="Message"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="c75ac892-391b-47e4-a9ad-6421f01575f7"
+            isDerived="false"
+            sourceEndRoleName="Message"
+            targetEndRoleName="Sanitizing"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="2bf665c8-57bb-4f61-8ad8-552e67bc8d52"
+              LastKnownName="Sanitizing"
+              LastKnownLocation="NapierBankMessageFilteringService.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ff240cb4-df20-4bcb-a397-022e5747c563"
+                  name="Message"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b941159c-d952-4c46-b713-a42a9e759439"
+                  name="Sanitizing"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="1dbeacdd-54a3-41e5-b85c-101e8840e54d"
+            name="SanitizeBehaviour"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="2bf665c8-57bb-4f61-8ad8-552e67bc8d52"
+                LastKnownName="Sanitizing"
+                LastKnownLocation="NapierBankMessageFilteringService.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="231c47e2-dc82-4651-b471-f00a69205ccc"
+            name="Sender"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="NapierBankMessageFilteringService.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6114db48-3103-4f63-93a0-b103abd06985"
+            name="MessageText"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="NapierBankMessageFilteringService.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="eb2d74d4-2521-4b2f-b725-8306ab495f7e"
+            name="MessageID"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="NapierBankMessageFilteringService.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="c6f94a18-91e9-49af-b8a1-9f9695ee1d29"
+            name="Message"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d9ad23bf-ae51-4220-be15-a3aa4d2dd9f8"
+                  name="messageID"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="02530b5a-014e-4b31-92b8-16db38f7e996"
+                  name="messageText"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="94c80c4c-af71-47de-bf41-48118e9fb925"
+                  name="sender"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c053d93b-d257-49bd-a6a6-2d881901b51d"
+                  name="sanitizeBehaviour SanitizeBehaviour"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c47590d6-9b2a-465f-83ea-4914306c9eaa"
+            name="sanitizeMessage"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="f8b56fc0-f5a9-4f06-b95f-a2f2364f48b9"
+            name="getMessageText"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a9b1f37a-3ac4-4ef8-bd2a-a89d77afb401"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="07531978-9d75-4258-8c2e-d84afdf8e4dc"
+            name="getSender"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b1423c1b-3004-4c73-ae25-6275345bdbf8"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="56d91ea6-509b-4b90-b6d3-09ac57a2ced5"
+        name="SMSMessage"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="a2171a8f-4a0b-44bd-974c-3bf722ca740c"
+            isSubstitutable="false">
+            <classMoniker
+              Id="cacd2540-d9f2-4861-860c-0a7cd3c217cc"
+              LastKnownName="Message"
+              LastKnownLocation="NapierBankMessageFilteringService.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="08022d0e-dee8-4ddf-8b81-10b76bf09dc5"
+            name="SMSMessage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5aa325c5-3195-4db2-b767-ce11041082b3"
+                  name="messageID"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="a7593854-eb41-445a-9d33-8df8c1bec212"
+                      LastKnownName="int"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5a069e25-2013-43bd-86e5-4836143609b1"
+                  name="messageText"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="53bb3e4c-c402-40ce-aa56-58400f91fdfd"
+                  name="sender"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b3a5b489-dc80-4437-b41b-9b2f928f77ef"
+                  name="sanitizeBehaviour Sanitizing"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9e287e18-bfca-44eb-9549-4c9926764213"
+        name="Tweet"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="e792d873-e188-4226-be7d-c8b35a42c8ad"
+            isSubstitutable="false">
+            <classMoniker
+              Id="cacd2540-d9f2-4861-860c-0a7cd3c217cc"
+              LastKnownName="Message"
+              LastKnownLocation="NapierBankMessageFilteringService.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="ddd9aa2c-640f-4ee8-bd78-da678504bc63"
+            name="mentionsList"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="2aa4413e-419e-4d81-af0a-d2701d2be56e"
+                LastKnownName="List&lt;string&gt;"
+                LastKnownLocation="NapierBankMessageFilteringService.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="28804722-a2f7-42ec-ad71-b41ff26c66c1"
+            name="hashtagList"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="2aa4413e-419e-4d81-af0a-d2701d2be56e"
+                LastKnownName="List&lt;string&gt;"
+                LastKnownLocation="NapierBankMessageFilteringService.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="5fcd4939-dcf8-4d41-9efe-3a80ffc0151d"
+            name="Tweet"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="12d9e299-9586-4f41-bdd4-05238abb912f"
+                  name="messageID"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4dc73d25-b108-4466-bdae-f5658c1c6a0f"
+                  name="messageText"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9bb41dc8-b3c7-405c-85c4-3411b8bc39c7"
+                  name="sender"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8ae8b68e-629d-4cc1-a01b-d88214fc6cfb"
+                  name="sanitizeBehaviour Sanitizing"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5a62e099-da04-4939-b552-60e3a5825ad5"
+            name="getHashtagList"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="16b1e065-e02c-4bff-81e1-b381c9e2dc9c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="2aa4413e-419e-4d81-af0a-d2701d2be56e"
+                      LastKnownName="List&lt;string&gt;"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9f03c8b4-032c-4d17-8166-33f3593454e1"
+            name="getMentionsList"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0d84f0d1-9f44-4877-8cb7-dcd88387e761"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="2aa4413e-419e-4d81-af0a-d2701d2be56e"
+                      LastKnownName="List&lt;string&gt;"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="846825d4-272a-4103-b67b-51f13e8d004e"
+        name="Email"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="f15ed698-9b97-4ada-85df-aa43a86cf209"
+            isSubstitutable="false">
+            <classMoniker
+              Id="cacd2540-d9f2-4861-860c-0a7cd3c217cc"
+              LastKnownName="Message"
+              LastKnownLocation="NapierBankMessageFilteringService.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="ce4c9521-0e8e-43ad-8e4c-7be45e038584"
+            name="Subject"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="NapierBankMessageFilteringService.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="1700d265-a6d0-4cca-a5e2-9e75f91332b5"
+            name="Email"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b8378b2e-7a73-48e9-b9bb-37947900c7e1"
+                  name="subject"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="952c1496-9d37-4a3a-a44e-cccdea30c717"
+                  name="messageID"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c0cb156f-112a-4312-8d58-3dc727f987b9"
+                  name="messageText"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6a7cd916-7f4a-4cc2-8762-543e4e97c0e9"
+                  name="sender"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7881f187-a33a-4661-8574-f53bf2cb3449"
+                  name="sanitizeBehaviour Sanitizing"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="aadd9869-5aa7-4680-b8e8-ed180ed727c4"
+            name="getSubject"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="400a7c51-ebb5-4ba4-9984-df3a330bd061"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="8f21a2b8-57ce-4768-ae9b-de93a55d7a5c"
+                      LastKnownName="string"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="95132782-2680-4266-afed-b1af088ac361"
+        name="StandardEmail"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="f259f0f4-ed85-4f66-aa51-53addd62265f"
+            isSubstitutable="false">
+            <classMoniker
+              Id="846825d4-272a-4103-b67b-51f13e8d004e"
+              LastKnownName="Email"
+              LastKnownLocation="NapierBankMessageFilteringService.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="22888a7e-5622-4ded-8c67-80a273be827a"
+            name="StandardEmail"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="723e0589-0ce5-4c61-9e5a-7571a0511a5d"
+                  name="subject"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8c2d11ba-c5de-4b9c-bc08-5d788bb6966d"
+                  name="messageID"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e1a21f7c-558c-42ad-9b2a-0f4c5ccbbc42"
+                  name="messageText"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="07777fef-3e7c-4dea-9cb7-471708a2a471"
+                  name="sender"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9d0b8a60-a0fb-4f07-ab46-b9dcef24fed6"
+                  name="sanitizeBehaviour Sanitizing"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7c907536-2e39-4f85-8e81-3bda6ea0daa9"
+        name="SIREmail"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="d16440da-5e8b-4dd9-81c5-f065db7bd36a"
+            isSubstitutable="false">
+            <classMoniker
+              Id="846825d4-272a-4103-b67b-51f13e8d004e"
+              LastKnownName="Email"
+              LastKnownLocation="NapierBankMessageFilteringService.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="5a9e558a-b0da-4013-9063-a863cdd383f6"
+            name="SirIncidentCode"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="NapierBankMessageFilteringService.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4286b70d-2baf-4f4f-878d-4cb8118ea48d"
+            name="SortCode"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="NapierBankMessageFilteringService.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="702a9659-bb7f-4a65-9e36-518e7ce70a6d"
+            name="SIREmail"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="219000eb-99ee-4351-975a-c0482d557a9d"
+                  name="subject"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ba4cf41c-227e-4809-a10e-31f54dd583d9"
+                  name="messageID"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="09022f3b-7ecd-4ee9-b29a-d4235783402e"
+                  name="messageText"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="47dbb660-30a2-4fe1-a837-a264219df6c6"
+                  name="sender"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8f1792c3-eccd-4f5a-a6ef-748490e2ea0d"
+                  name="sortCode"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="39bef1b8-1e16-459f-bfdf-85750f1189f1"
+                  name="sirIncidentCode"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="be5780b1-5ae8-4171-8feb-ae312789443f"
+                  name="sanitizeBehaviour Sanitizing"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="cfe4da4f-216c-44a8-995d-33e885494e04"
+            name="getSirIncidentCode"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f28ab6f0-699a-424d-ac3a-1f91bcff1cdd"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d75b8c90-700b-418c-a35e-a44e2fa08a6c"
+            name="getSortCode"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="41c31b75-c815-4d49-8d02-dd37edd1db92"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="2bf665c8-57bb-4f61-8ad8-552e67bc8d52"
+        name="Sanitizing"
+        isAbstract="false"
+        isLeaf="false">
+        <ownedOperations>
+          <operation
+            Id="d92ebe80-44c8-4935-b55c-79fbf078ba27"
+            name="sanitizeMessage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b7462c4e-39ac-47fe-bf8b-1176c79a9534"
+                  name="Message messageToSanitize"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b34fa0dc-f17c-41ae-b487-bc427cee077a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="cacd2540-d9f2-4861-860c-0a7cd3c217cc"
+                      LastKnownName="Message"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="14874e7d-1a31-4c3b-87e4-83f346a7d9a8"
+        name="SMSSanitizing"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="dbba3239-194b-4530-b013-9a37554de3c5">
+            <interfaceMoniker
+              Id="2bf665c8-57bb-4f61-8ad8-552e67bc8d52"
+              LastKnownName="Sanitizing"
+              LastKnownLocation="NapierBankMessageFilteringService.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="6cbec295-0ca4-40ed-a31a-1b137f08bdba"
+            name="sanitizeMessage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="09e9bd9e-20db-4217-babb-a00e996021a7"
+                  name="Message messageToSanitize"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6811380b-4374-48dc-8ed0-da27849cd312"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="cacd2540-d9f2-4861-860c-0a7cd3c217cc"
+                      LastKnownName="Message"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a994eabb-0ba1-4e6c-a3e8-69b20f51d241"
+        name="TweetSanitizing"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="06a10cb4-50a0-4453-bf5b-5362270fd466">
+            <interfaceMoniker
+              Id="2bf665c8-57bb-4f61-8ad8-552e67bc8d52"
+              LastKnownName="Sanitizing"
+              LastKnownLocation="NapierBankMessageFilteringService.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ee348b7a-0711-430e-a442-692dde13ffdd"
+            name="sanitizeMessage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="35913c8a-cd95-4871-a8ee-abd372689a04"
+                  name="Message messageToSanitize"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="65797501-279e-425c-a08c-e4b57638dbd0"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="cacd2540-d9f2-4861-860c-0a7cd3c217cc"
+                      LastKnownName="Message"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="af777ab5-1720-4990-b8e6-b4db60f1121c"
+        name="EmailSanitizing"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="603774bd-7b0a-45b5-9f8e-8d556cdf31d6">
+            <interfaceMoniker
+              Id="2bf665c8-57bb-4f61-8ad8-552e67bc8d52"
+              LastKnownName="Sanitizing"
+              LastKnownLocation="NapierBankMessageFilteringService.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="eb4e853f-a79a-4392-9ff6-325c17647467"
+            name="sanitizeMessage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1038ab36-c6ff-40d2-9eaa-b2c11b73b55d"
+                  name="Message messageToSanitize"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="02eb947e-9871-4ae8-b708-73d1012ec27a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="cacd2540-d9f2-4861-860c-0a7cd3c217cc"
+                      LastKnownName="Message"
+                      LastKnownLocation="NapierBankMessageFilteringService.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="17ff3329-cb81-442e-b07e-0944dc3720d9"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="2aa4413e-419e-4d81-af0a-d2701d2be56e"
+        name="List&lt;string&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="e5004938-c9d6-4a8a-a156-eac0a94eafdb"
+        name="List&lt;Message&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="8f21a2b8-57ce-4768-ae9b-de93a55d7a5c"
+        name="string" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="a7593854-eb41-445a-9d33-8df8c1bec212"
+        name="int" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="b2286b80-53d6-4dbb-8ad3-5aae0a5b6b2d"
+        LastKnownName="NapierBankMessageFilteringWPF"
+        LastKnownLocation="Package_2324.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="c6749a92-9bb7-474e-a4af-0292ee182e8f"
+        LastKnownName="System"
+        LastKnownLocation="Package1_2324.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
